@@ -48,6 +48,8 @@
     <script src="{% static 'js/power-cable-acc2.js' %}"></script>
     <script src="{% static 'js/health2.js' %}"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
 </head>
 
 <body>
@@ -238,7 +240,6 @@
                     <div class="participate-div1-child"> 📚 Students currently enrolled in engineering courses (undergraduate or postgraduate)</div>
                     <div class="participate-div1-child">🌍 Open to students from Australia, Oceania, and Asia-Pacific countries</div>
                     <div class="participate-div1-child">💵 No registration fees – participation is 100% free</div>
-                    <p>Loading...</p>
                 </div>
             </div>
             <div class="participate-div2">
@@ -317,6 +318,7 @@
             <i><img src="../static/images/ismart/slider-logo4.jpg" width="170px" height="110px" alt="img"/></i>
             <i><img src="../static/images/ismart/slider-logo8.png" width="160px" height="130px" alt="img"/></i>
             </div>
+            
         </div>
     </div>
 
@@ -335,21 +337,65 @@
             If you're a sponsor or educational institution interested in supporting future engineering talent, we’d love to hear from you.
             Partner with us to empower the next generation of innovators!
         </p>
+       
         <div class="d-flex justify-content-center">
             <button type="button" id="register-btn-support" class="btn btn-primary">Register Now</button>
         </div>
     </div>
 
+    <!--sponsor amount  -->
+    <div class="container-fluid reveal text-center" id="sponsor-amount-outer">
+        <h5>Sponsorship Opportunities</h5>
+        
+        <div class="sponsor-amount-inner">
+            <div class="sponsor-amount-child">
+                <h1>Gold Sponsorship: </h1>
+                <h2>&#x1F4B0; $2500 AUD</h2>
+            </div>
+            <div class="sponsor-amount-child">
+                <h1>Silver Sponsorship:</h1>
+                <h2>&#x1F4B0; $1750 AUD </h2></div>
+            <div class="sponsor-amount-child">
+                <h1>Bronze Sponsorship: </h1>
+                <h2>&#x1F4B0; $1000 AUD</h2>
+            </div>
+            <div class="sponsor-amount-child">
+                <h1>Minor Sponsorship:</h1>
+                <h2>&#x1F4B0; $250 AUD </h2>
+            </div>
+        </div>
+    </div>
+
+
     <!-- final call -->
 
     <div class="container-fluid reveal" id="finalcall-img">
-        
-       
+        <h2>Knocking  at your door  door !</h2>
+        <div class="finalcall-inner">
+            <h3>Hurry up Smartheads !</h3>
+            <h1>Registration Closes Soon !</h1>
+            <div class="d-flex justify-content-start" style="margin-top: 30px;">
+                <button type="button" id="register-btn" class="btn btn-primary">Register Now</button>
+            </div>
+        </div>
     </div>
-    
+     
 
     <!-- social media icons  -->
         
+    <!-- Social Icons -->
+    <div>
+        <ul id="social_side_links">
+            
+            <li><a href="https://www.instagram.com/iengineering_group/" target="_blank"><img src="../static/images/ismart/insta2.jpg" alt="LinkedIn" /></a></li>
+            <li><a href="https://www.facebook.com/iEngineeringAustralia" target="_blank"><img src="../static/images/ismart/facebook.png" alt="Facebook" /></a></li>
+            <li><a href="https://x.com/iEngAust" target="_blank"><img src="../static/images/ismart/xlogo.png" alt="Twitter" /></a></li>
+            <li><a href="https://www.linkedin.com/groups/14251356/" target="_blank"><img src="../static/images/ismart/linkedin.png" alt="LinkedIn" /></a></li>
+            <li><a href="https://www.youtube.com/@iengineeringgroup6136/videos" target="_blank"><img src="../static/images/ismart/youtube.png" alt="youtube" /></a></li>
+        </ul>
+    </div>
+
+
 
     <script src="script.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -367,7 +413,7 @@
     <script src="lib/counterup/counterup.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
     <script src="lib/lightbox/js/lightbox.min.js"></script>
-    {% include 'footer.html' %}
+    {% include 'ismart-footer.html' %}
 
     <a href="#" class="back-to-top"><i class="ion-ios-arrow-up"></i></a>
 </body>
