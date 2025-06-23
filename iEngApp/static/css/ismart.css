@@ -384,7 +384,7 @@
   background-color: #0056b3; /* Change background color on hover */
   border-color: #004085; /* Optionally change border color */
   transform: scale(1.05); /* Slightly increase the size of the button */
-}
+} 
 
 .section-heading {
   color: rgb(1, 1, 1);
@@ -1245,14 +1245,13 @@
 
 /* Social Icons */
 
-
 #social_side_links {
   position: fixed;
   right: 20px; /* Position the list to the right side */
   bottom: 20px;
   
   
-  padding: 5px 5px 85px 20px;
+  padding: 5px 5px 0 20px;
   
   margin: 0;
   list-style: none;
@@ -1260,7 +1259,7 @@
 }
 
 #social_side_links li {
-  margin-bottom: 5px; 
+  margin-bottom: 5px; ;
 }
 
 #social_side_links li a {
