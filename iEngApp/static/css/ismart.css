@@ -161,6 +161,50 @@
   }
 }
 
+
+/* timmmer csss */
+
+#countdown-card {
+  max-width: 100%;
+  width: 50%;
+  margin: 50px auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden; /* ensures the header touches edges */
+}
+
+#card-header {
+  background-color: #6f00ff;
+  padding: 1rem 0;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  margin: 0;
+}
+
+.countdown-tile h2 {
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+.countdown-tile p {
+  margin-top: 8px;
+  font-size: 2rem;
+  color: #555;
+}
+
+@media (max-width: 576px) {
+  .countdown-tile h2 {
+    font-size: 1.8rem;
+  }
+  .countdown-tile p {
+    font-size: 0.9rem;
+  }
+}
+
+
 /* ________________organize-by-outer section css______________________________________ */
 #organize-by-outer {
   background-color: rgb(241, 241, 241);
@@ -271,7 +315,8 @@
 
 /* Individual card styling */
 #quiz-round-card {
-  width: 35rem;
+  margin-right: 30px;
+  width: 50rem;
   height: 100%;
   border-radius: 15px;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
@@ -281,6 +326,12 @@
 #quiz-round-card-body {
   text-align: start;
   padding: 20px;
+}
+
+#quiz-round-card-body ul li{
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  margin-left: 10px;
 }
 
 #quiz-round-card-body h2 {
@@ -536,9 +587,13 @@
 }
 
 .prize-section-text ul {
-  font-size: 2.1rem; /* ~17.6px */
+  font-size: 2rem; /* ~17.6px */
   margin-left: 20px;
   padding-left: 15px;
+}
+
+.prize-section-text ul li {
+  margin-bottom: 15px;
 }
 
 .prize-section-text p {
@@ -576,8 +631,11 @@
   }
 
   .prize-section-text ul {
-    font-size: 2rem;
+    font-size: 1.9rem;
   }
+  .prize-section-text ul li{
+    margin-bottom: 10px;
+  } 
   #register-btn {
   font-size: 1.6rem;
   }
@@ -735,7 +793,7 @@
 }
 
 #inquires p {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   margin-top: 10px;
 }
 
@@ -859,8 +917,9 @@
   flex-wrap: wrap;
   width: 100%;
   justify-content: center;
-  gap: 30px;
+  gap: 20px;
 }
+
 #participate {
   background-color: #c6f6ff;
   width: 100%;
@@ -897,24 +956,31 @@
 .participate-div1-parent {
   border-radius: 40px;
   width: 100%;
-  max-width: 450px;
+  max-width: 500px;
   background-color: white;
   padding: 20px;
-  border: 10px solid blue;
+  border: 2px solid rgb(255, 255, 255);
+  box-shadow: 10px 10px 20px black;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
+.participate-div1-parent h2 {
+  font-size: 3.8rem;
+  margin: 30px;
+}
+
+
 .participate-div1-child {
   background-color: #f2f2f2;
   padding: 15px 20px;
   border-radius: 10px;
   margin-bottom: 15px;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   color: #333;
-  line-height: 2;
+  line-height: 1;
   width: 100%;
 }
 
